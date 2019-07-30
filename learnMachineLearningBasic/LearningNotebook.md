@@ -21,4 +21,4 @@
 - 使用梯度下降法最小化代价函数
 - 不同的起始点会得到不同的局部最优解
 - 不同的参数需要同时进行更新，也就是说，第一次更新得到a0，a1，需要使用这个a0，a1计算应该得到的a0'和a1'而不是逐步更新，所以需要将计算值先赋值暂存才能在最后赋值给a0，a1
-![正确和错误的赋值方式](file:///D:/1文件/机器学习/LearnMachineLearning/LearnMachineLearningFullProject/LearnMachineLearninng/learnMachineLearningBasic/无标题.png)
+![正确和错误的赋值方式](https://github.com/FranklinDX3906/LearnMachineLearning/blob/master/learnMachineLearningBasic/SimultaneousUptade.png?raw=true)
