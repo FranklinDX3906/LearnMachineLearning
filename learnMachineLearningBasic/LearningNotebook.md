@@ -22,3 +22,15 @@
 - 不同的起始点会得到不同的局部最优解
 - 不同的参数需要同时进行更新，也就是说，第一次更新得到a0，a1，需要使用这个a0，a1计算应该得到的a0'和a1'而不是逐步更新，所以需要将计算值先赋值暂存才能在最后赋值给a0，a1
 ![正确和错误的赋值方式](https://github.com/FranklinDX3906/LearnMachineLearning/blob/master/learnMachineLearningBasic/SimultaneousUptade.png?raw=true)
+
+# 课时11 梯度下降知识点总结
+
+# 课时12 线性回归的梯度下降
+- 如果学习速度合理，会逐渐逼近最优解
+- 线性回归的代价函数是一个碗形的凸函数，所以局部最优解也是全局最优解
+- 梯度下降公式的计算结果：
+![计算公式](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/LinearRegressionCalculation.png)
+
+# 课时13 本章课程总结
+
+# 课时14 
