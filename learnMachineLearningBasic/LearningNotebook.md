@@ -75,3 +75,17 @@
 # 课时26 更多 Octave/MATLAB 资源
 
 # 课时27 课件资料下载方法
+
+# 课时28 多功能
+- 多特特征决定最终结果（比方说房屋价格）
+- n:特征数量
+- 线性情况下使用多个参数
+- 为了方便矩阵，设置为x0=1（x1开始是特征）
+- 于是特征为n+1维的向量（x0开始，x0=1，x1到xn为特征）
+- 下标表示不同的特征，上标表示不同的特征组
+- 即为多元线性回归：h(x)=(A^T)X
+
+# 课时29 多元线性回归
+- 多元线性回归公式：
+
+![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/MultivariateGradientReduction.png)
