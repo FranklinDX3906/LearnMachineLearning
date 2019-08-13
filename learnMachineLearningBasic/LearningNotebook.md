@@ -89,3 +89,19 @@
 - 多元线性回归公式：
 
 ![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/MultivariateGradientReduction.png)
+
+- 偏导的计算结果：
+
+![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/MultivariateGradientReductionCalculation.png)
+
+# 课时30 多元梯度下降法演练 I – 特征缩放
+- 确保所有的特征值的尺度相当
+- 将所有特征值的大小约束到-1与1之间是最好的，不过也不需要严格，相差不多即可，太小也不行
+- 同时也可以使用归一化使得所有种类的特征值的所有平均值为0
+- 特征缩放的主要目的是为了使得梯度下降更快
+
+# 课时31 多元梯度下降法II – 学习率
+- 主要讨论学习速率α
+- 合适的学习速率坏使得每一步迭代之后代价函数的值都减小
+- 代价函数收敛不一定非得在完全平才判断收敛，可以设置为“在一次迭代之后代价函数值下降小于某一个值θ则判断为收敛”，或者通过查看代价函数值与迭代次数的曲线
+- 曲线还可以用于判断算法是否正常运行，如果代价函数逐渐变大，说明学习速率过大，起伏的曲线也可以使用减小学习速率的方法
