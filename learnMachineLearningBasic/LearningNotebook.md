@@ -111,3 +111,21 @@
 
 # 课时33 正规方程（区别于迭代方法的直接解法）
 - 线性回归可以直接算出最优解（对每一个参数求偏导并置零）
+- 或者直接使用公式计算：（X的每一行是一个样本）
+
+![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/ParameterCalculationFormulafortheOptimalSolutionofMultipleLinearRegression.png)
+
+- 无需特征缩放
+- 优缺点：无需学习速率，无需迭代，但是特征种类很多时计算慢（O(N^3)）
+
+# 课时34 正规方程在矩阵不可逆情况下的解决方法
+- 矩阵不可逆时，pinv会计算出“伪逆”，最后依旧可以计算出正确结果
+- 矩阵不可逆的情况主要是：特征互相相关（线性相关）；样本太少而特征太多
+- 解决方法：看看有没有线性相关的特征；看看是不是样本太少特征太多，删掉一些特征，或者采用正则化
+
+# 课时35 导师的编程小技巧
+- 这一部分是提交代码的方式，应该是只开放给斯坦福上这门course的学生的
+
+# 课时36 本章课程总结
+
+# 课时37 课件资料下载方法
