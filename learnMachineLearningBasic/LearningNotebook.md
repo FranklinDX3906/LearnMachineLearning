@@ -195,3 +195,4 @@
 # 课时44 本章课程总结
 
 # 课时45 编程作业：线性回归
+- 具体内容见[Exercise1](https://github.com/FranklinDX3906/LearnMachineLearning/tree/master/learnMachineLearningBasic/Exercise1)
