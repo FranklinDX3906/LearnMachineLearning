@@ -196,3 +196,11 @@
 
 # 课时45 编程作业：线性回归
 - 具体内容见[Exercise1](https://github.com/FranklinDX3906/LearnMachineLearning/tree/master/learnMachineLearningBasic/Exercise1)
+
+# 课时46 分类
+- y的取值是离散的
+- 使用线性回归不适用一些例子，所以分类问题一般使用逻辑回归+
+
+# 课时47 假设陈述
+- 控制假设函数的输出值在0到1之间
+- 使用g(z)，g(z)是逻辑函数，g(z)=1/(1+e^(-z))，h(x)=1/(1+e^(-θ'*X))
