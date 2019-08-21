@@ -204,3 +204,14 @@
 # 课时47 假设陈述
 - 控制假设函数的输出值在0到1之间
 - 使用g(z)，g(z)是逻辑函数，g(z)=1/(1+e^(-z))，h(x)=1/(1+e^(-θ'*X))
+
+# 课时48 决策界限
+- h(x)输出的是预测为1的概率
+- -θ'*X大于0则预测为1，小于0则预测为0
+- 决策边界是假设函数的属性，与θ有关，决策边界上的h值正好等于0.5
+
+# 课时49 代价函数
+- 使用线性回归的代价函数会造成代价函数不是凸函数，梯度下降法只能得到局部最优
+- 采用另一种代价函数即可：
+
+![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/CostFunctionOfLogisticRegression.png)
