@@ -215,3 +215,22 @@
 - 采用另一种代价函数即可：
 
 ![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/CostFunctionOfLogisticRegression.png)
+
+# 课时50 简化代价函数与梯度下降
+- 代价函数计算结果为：
+
+![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/CostFunctionOfLogisticRegression_Easy.png)
+
+- θ的更新计算公式与线性回归一模一样
+- 特征缩放也是必要的
+
+# 课时51 高级优化
+- 某些高级优化无需输入学习速率，但是要自己构建好函数
+
+# 课时52 多元分类：一对多
+- y不止0,1，可能有两个以上
+- 分成多个二元问题，对于每一个类别单独拟合一个h(x)，代表属于这个类别的概率，最后预测时选择h最大的那个
+
+# 课时53 本章课程总结
+
+# 课时54 课件资料下载方法
