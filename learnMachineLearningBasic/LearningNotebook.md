@@ -234,3 +234,29 @@
 # 课时53 本章课程总结
 
 # 课时54 课件资料下载方法
+
+# 课时55 过拟问题
+- 欠拟合：模型问题导致偏差较大
+- 过拟合：参数太多，样本太少导致方差过大，偏差很小几乎为零但是无法预测
+- 解决过拟合：画图图像；很多情况下是由于特征太多而样本太少，所以舍弃一些特征，或正则化
+
+# 课时56 正则化和代价函数
+- 在过拟合的情况下对高次项的参数施加“惩罚”（代价函数内加上参数*较大数字），使得最后拟合出来的函数高次项可以忽略不计
+- 然而很多情况不知道什么是高次项，所以线性回归问题中防止过拟合是在原有代价中加入对所有参数的惩罚，其中λ是正则化参数，过小过大都不可以，过小会仍然过拟合，过大会欠拟合：
+
+![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/RegularizedLinearRegressionCostFunction.png)
+
+# 课时57 线性回归的正则化
+- θ的更新公式（实际上就是相对于先用θ乘一个接近于1（0.99）的数然后再进行梯度下降）：
+
+![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/RegularizedGradientDescent.png)
+
+- 也可以用公式直接计算出最优的θ值：
+
+![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/RegularizedGradientDescentNormal.png)
+
+其中矩阵为n+1维
+
+# 课时58 课件资料下载方法
+
+# 课时59 本章课程总结
