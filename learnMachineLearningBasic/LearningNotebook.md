@@ -263,3 +263,8 @@
 
 # 课时60 编程作业：Logistic 回归
 - 具体内容见[Exercise2](https://github.com/FranklinDX3906/LearnMachineLearning/tree/master/learnMachineLearningBasic/Exercise2)
+
+# 课时61 Logistic 回归的正则化
+
+# 课时62 非线性假设
+- 很多情况下，需要预判的量带有的特征非常多，这个时候使用线性假设很复杂，所以要采用非线性假设，神经网络算法是其中之一。
