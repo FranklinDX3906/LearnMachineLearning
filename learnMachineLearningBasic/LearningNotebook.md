@@ -260,3 +260,6 @@
 # 课时58 课件资料下载方法
 
 # 课时59 本章课程总结
+
+# 课时60 编程作业：Logistic 回归
+- 具体内容见[Exercise2](https://github.com/FranklinDX3906/LearnMachineLearning/tree/master/learnMachineLearningBasic/Exercise2)
