@@ -290,6 +290,7 @@
 # 课时66 课件资料下载方法
 
 # 课时67 编程作业：多元分类与神经网络
+- 具体内容见[Exercise3](https://github.com/FranklinDX3906/LearnMachineLearning/tree/master/learnMachineLearningBasic/Exercise3)
 
 # 课时68 例子与直觉理解1
 - 神经网络可以用于复杂的非线性模型（比如与或运算），通过优化权重函数
