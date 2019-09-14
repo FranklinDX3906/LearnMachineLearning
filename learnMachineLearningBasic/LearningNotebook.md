@@ -302,3 +302,25 @@
 
 # 课时71 多元分类
 - 多种类别时，相对于神经网络输出层有多个
+
+# 课时72 代价函数
+- L一般代表神经网络的层数，s_l表示第l层的单元个数（偏置单元不计）
+- 一般来说，多少种分类就有多少个输出单元，两种分类一般是一个输出单元
+- 神经网络的代价函数公式：（涉及到偏执单元的参数θ不计入偏置项计算）
+
+![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/CostFunctionOfNeuralNetwork.png)
+
+# 课时73 反向传播算法
+- 使用δ表示每一层的每一个单元的误差值，实际上值为代价的导数
+- 反向传播算法过程：
+
+![](https://raw.githubusercontent.com/FranklinDX3906/LearnMachineLearning/master/learnMachineLearningBasic/BackpropagationAlgorithm.png)
+
+# 课时74 理解反向传播
+
+# 课时75 使用注意：展开参数
+- 将θ和梯度向量化以方便调用函数
+
+# 课时76 梯度检测
+- 使用双侧差分法检测梯度近似值
+- 保证正确后关闭梯度检验
